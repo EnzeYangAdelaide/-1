@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>41 Harris Street</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #B0E2FF, #FFB6C1);
+            text-align: center;
+        }
+
+        header {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-bottom: 2px solid #FF69B4;
+        }
+
+        h1 {
+            color: #FF69B4;
+            text-shadow: 2px 2px 4px #888888;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 0 10px;
+            background-color: #FFB6C1;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            box-shadow: 2px 2px 5px #888888;
+        }
+
+        nav a:hover {
+            background-color: #FF69B4;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .content-box {
+            background-color: rgba(255, 255, 255, 0.7);
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px #888888;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 3px 3px 7px #888888;
+        }
+
+        footer {
+            background-color: rgba(255, 182, 193, 0.8);
+            padding: 10px;
+            margin-top: 20px;
+            border-top: 2px solid #B0E2FF;
+            color: white;
+        }
+
+        .heart {
+            color: #FF69B4;
+            font-size: 1.5em;
+        }
+
+        .star {
+            color: yellow;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>欢迎来到我家 <span class="heart">💖</span></h1>
+        <nav>
+            <a href="#">首页</a>
+            <a href="#">关于我</a>
+            <a href="#">作品展示</a>
+            <a href="#contact">联系方式</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content-box">
+            <h2>关于我 <span class="star">⭐</span></h2>
+            <img src="https://c-ssl.duitang.com/uploads/item/201907/18/20190718092857_bygtl.jpg" alt="可爱小狗">
+            <p>
+                大家好！我是 EnzeYang，你也可以叫我 κωστας。
+            </p>
+            <p>
+                我住在 41 Harris Street, Netley 5037 SA, Australia 和 Leof. Andrea Siggrou 184, Athina 17671, Greece。
+            </p>
+            <p>
+                我高中就读于 <a href="https://en.wikipedia.org/wiki/%C3%85va_gymnasium" target="_blank">Åva Gymnasium</a>。
+            </p>
+        </div>
+
+        <div class="content-box">
+            <h2>最新动态 <span class="star">⭐</span></h2>
+            <p>
+                欢迎关注我的状态！
+            </p>
+            <ul>
+                <li>今天学习了新的 HTML 技巧！</li>
+                <li>制作了一个页面设计。</li>
+                <li>分享了一件趣事。</li>
+            </ul>
+        </div>
+
+        <div class="content-box" id="contact">
+            <h2>联系方式 <span class="star">⭐</span></h2>
+            <p>电话: 0416 669 088</p>
+            <p>邮箱: <a href="mailto:enzeyang26@gmail.com">enzeyang26@gmail.com</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 我的家</p>
+    </footer>
+
+</body>
+</html>
